@@ -1,0 +1,2 @@
+# custom-gauge
+dashboard homeassistant
