@@ -3,7 +3,7 @@ name: Release to HACS
 on:
   push:
     tags:
-      - 'v*'  # Déclenche l'action lorsque tu publies un tag commençant par "v"
+      - 'v*'  # Déclenche l'action tag commençant par "v"
 
 jobs:
   release:
