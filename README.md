@@ -10,7 +10,7 @@ dashboard homeassistant
 
 
 
-Une carte de jauge personnalisée pour Home Assistant, permettant d'afficher des entités sous forme de jauges circulaires avec des effets dynamiques (ombres, LEDs, etc.) et un contrôle avancé via YAML.
+Une carte de jauge personnalisée pour Home Assistant, permettant d'afficher des entités sous forme de jauges circulaires avec des effets dynamiques (ombres, LEDs, etc.) et un contrôle via YAML.
 
 ## Fonctionnalités principales
 
@@ -28,14 +28,14 @@ Une carte de jauge personnalisée pour Home Assistant, permettant d'afficher des
 ## Installation
 
 ### 1. Télécharger le fichier JavaScript
-Clone ou télécharge ce dépôt sur votre instance Home Assistant. Place le fichier `custom-gauge-card.js` dans le répertoire suivant :
+Clone ou télécharge ce dépôt: https://github.com/guiohm79/custom-gauge sur votre instance Home Assistant. Place le fichier `custom-gauge-card.js` dans le répertoire suivant : /config/www/community/custom-gauge-card
 
 
 ### 2. Ajouter la ressource dans Home Assistant
 Ajoute la ressource JavaScript dans ton tableau de bord Lovelace :
 
 1. Va dans **Paramètres > Tableau de bord > Ressources > Ajouter une ressource**.
-2. Ajoute le chemin suivant :
+2. Ajoute le chemin suivant : /local/community/custom-gauge-card/custom-gauge-card.js
 
 3. Sélectionne le type : **Module**.
 
