@@ -1,0 +1,9 @@
+{
+    "name": "custom gauge card",
+    "content_in_root": false,
+    "filename": "custom-gauge-card.js",
+    "domains": ["lovelace"],
+    "country": "FR",
+    "render_readme": true
+  }
+  
