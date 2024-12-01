@@ -3,6 +3,12 @@ dashboard homeassistant
 # Custom Gauge Card for Home Assistant
 
 ![image](https://github.com/user-attachments/assets/61cc21ca-180b-4d35-9cb6-a8933ac2a69e)
+<img width="263" alt="image" src="https://github.com/user-attachments/assets/9d774784-1ddc-418e-b796-a657d03c9707">
+<img width="329" alt="image" src="https://github.com/user-attachments/assets/a0a3bc6c-3420-4d3f-af84-84a1af209eef">
+<img width="328" alt="image" src="https://github.com/user-attachments/assets/3ae669f1-73d3-4ddf-8bd3-aa99e8dbe5f3">
+
+
+
 
 Une carte de jauge personnalisée pour Home Assistant, permettant d'afficher des entités sous forme de jauges circulaires avec des effets dynamiques (ombres, LEDs, etc.) et un contrôle avancé via YAML.
 
@@ -55,8 +61,7 @@ enable_shadow: true
 center_shadow: true
 center_shadow_blur: 50 # Flou de l'ombre centrale
 center_shadow_spread: 10 # Expansion de l'ombre centrale
-shadow_direction: outward # Ombre vers l'extérieur (inward pour l'intérieur)
-severity:
+severity: # pourcentage de la valeur max
 - color: "#ff2d00" # Rouge pour les faibles niveaux (jusqu'à 25 %)
  value: 25
 - color: "#fb8804" # Orange pour les niveaux moyens (jusqu'à 50 %)
